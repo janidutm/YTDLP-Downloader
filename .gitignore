@@ -1,0 +1,21 @@
+# Python virtual environments and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# PyInstaller build output
+/build/
+/dist/
+*.spec.bak
+
+# Private account credentials and local app state
+cookies*.txt
+download_history*.sqlite3
+download_history*.sqlite3-*
+
+# Local downloads, test data, and standalone helper binaries
+/test_downloads/
+/yt-dlp.exe
+*.part
+*.ytdl
+*.log
